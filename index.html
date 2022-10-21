@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+   
+
+    <head>
+        <meta charset="UTF-8">
+        <title>wev_Lab1</title>
+        <link rel="stylesheet" href="css/myStyle.css">
+        <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id = "headSite">
+                <h2>Здравствуйте, это лабораторная работа Юнусова Романа P32102, по всем вопросам прошу обращаться в <a href = "https://vk.com/minionpole">личные сообщения</a><p></p>Номер группы P32102, Номер варианта 1617</h2>
+            </div>
+            
+            <div id="pictureSite">
+                <img class="imgG" src="photo/graphImg.png" alt="график на картинке" >
+                
+            </div>
+            
+            <form id="parInForm" action="php/test.php"  method="post">
+                <div id="parameterSite">
+                    
+                        <div class="inputBlock">
+                            <label>ввод x</label>
+
+                            <p>
+                                <div id = "firstRadio" class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="-3">
+                                    <p></p>
+                                    <label>-3</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="-2">
+                                    <p></p>
+                                    <label>-2</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="-1">
+                                    <p></p>
+                                    <label>-1</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="0">
+                                    <p></p>
+                                    <label>0</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="1">
+                                    <p></p>
+                                    <label>1</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="2">
+                                    <p></p>
+                                    <label>2</label>
+                                </div>
+                                <div class = radioBlock>
+                                    <input class = "radioDot" name="X" type="radio" value="3">
+                                    <p></p>
+                                    <label>3</label>
+                                </div>
+                            </p>
+
+
+                        </div>
+                        <div id = "yInputId" class="inputBlock">
+                            <label>ввод y</label>
+                            <p></p>
+                            <textarea id = "yInputIdField" name = "Y"></textarea>
+                        </div>
+
+                        <div class="inputBlock">
+                            <label>ввод R</label>
+                            <p></p>
+                            <div class = "checkBlock">
+                                <input class = "checkBox" type="checkbox" name="R" value="1">
+                                <p></p>
+                                <label>1</label>
+                            </div>
+
+                            <div class = "checkBlock">
+                                <input class = "checkBox" type="checkbox" name="R" value="2">
+                                <p></p>
+                                <label>2</label>
+                            </div>
+
+                            <div class = "checkBlock">
+                                <input class = "checkBox" type="checkbox" name="R" value="3">
+                                <p></p>
+                                <label>3</label>
+                            </div>
+
+                            <div class = "checkBlock">
+                                <input class = "checkBox" type="checkbox" name="R" value="4">
+                                <p></p>
+                                <label>4</label>
+                            </div>
+
+                            <div class = "checkBlock">
+                                <input class = "checkBox" type="checkbox" name="R" value="5">
+                                <p></p>
+                                <label>5</label>
+                            </div>                    
+                        </div>
+
+                        <div class="inputBlock">
+                            <button type="submit">проверить точку</button>
+                        </div>
+                </div>
+            </form>
+
+            <div id="clear"></div>
+                                       
+            <div id="footerSite" class = "footerSite">
+                <div class="answerBlock">X</div>
+                <div class="answerBlock">Y</div>
+                <div class="answerBlock">R</div>
+                <div class="answerBlock">Result</div>
+                <div class="answerBlock">CurrentTime</div>
+                <div class="answerBlock">ExecutionTime</div>
+                <div class="deltaBlock"></div>
+
+            </div>
+
+        </div>
+
+    </body>
+    
+
+</html>

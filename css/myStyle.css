@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(244, 248, 248);
+    font: Times New Roman;
+}
+#headSite{
+    background-color: rgb(194, 231, 59);
+    width: 100%;
+    height: 100px;
+    font: sans-serif;
+}
+
+#headSite a:visited{
+    color:rgb(192, 28, 96);
+}
+
+#pictureSite{
+    background-color: rgb(31, 235, 109);
+    width: 40%;
+    float:left;
+    height: 550px;
+}
+
+#parameterSite{
+    background-color: rgb(34, 180, 90);
+    width: 60%;
+    float: right;
+    height: 550px;
+}
+
+#clear {
+    clear: both;
+}
+#footerSite {
+    background: #00BFFF;
+    width: 100%;
+    height: 240px;
+}
+.inputBlock{
+    height: 20%;
+}
+.radioBlock{
+    text-align: center;
+    float:left;
+    width: 60px;
+}
+.radioDot{
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+}
+#yInputId{
+    height: 15%;
+}
+#yInputIdField{
+    width: 70px;
+    height: 30px;
+    resize: none
+}
+
+.checkBlock{
+    text-align: center;
+    float:left;
+    width: 60px;
+}
+.checkBox{
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.footerSite>p{
+    font: sans-serif;
+}
+.imgG{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.answerBlock{
+    text-align: center;
+    float:left;
+    width: 16.5%;
+}
+.deltaBlock{
+    text-align: center;
+    float:left;
+    width: 100%;
+}
